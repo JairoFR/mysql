@@ -1,3 +1,5 @@
+-- Ejercicios de practica consultas mysql
+
 SELECT * FROM billing;
 SELECT * FROM clients;
 SELECT * FROM leads;
