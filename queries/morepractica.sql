@@ -50,7 +50,9 @@ GROUP BY clients.id;
 SELECT sites.domain_name, COUNT(leads.id) AS Total_prospectos
 FROM sites
 JOIN leads ON sites.id = leads.sites_id
-GROUP BY sites.id
+GROUP BY sites.id;
+
+
 
 
 
